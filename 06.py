@@ -17,4 +17,4 @@ def word_ladder(beginWord, endWord, wordList):
                     queue.append((new_word, steps + 1))
                     wordSet.remove(new_word)
 
-    return 1
+    return 0
