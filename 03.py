@@ -20,5 +20,5 @@ def longest_substring(s):
             
             return max_length
         # test 
-        print(longest_substring("abcjkdbc"))
+        print(longest_substring("abcabcbb"))
         
